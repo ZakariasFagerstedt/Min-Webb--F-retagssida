@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  list-style: none;
+  display: flex;
+  padding: 50px;
+  font-size: 25px;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 20px;
+  border: 1px solid black;
+}
+nav ul li a:hover {
+  background-color: black;
+  color: white;
+}
+
+header {
+  background-image: url(summonersrift.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
