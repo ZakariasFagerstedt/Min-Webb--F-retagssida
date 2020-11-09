@@ -3,6 +3,14 @@
   margin: 0;
 }
 
+.Container {
+  display: grid;
+  grid-template-columns: 1fr 60% 1fr;
+  grid-template-rows: 10em 1fr;
+  background-image: url(summonersrift.jpg);
+  height: 100vh;
+}
+
 nav li {
   list-style: none;
   display: flex;
@@ -16,18 +24,30 @@ nav ul {
 }
 nav ul li a {
   text-decoration: none;
-  color: black;
+  color: white;
   padding: 5px 20px;
-  border: 1px solid black;
+  border: 1px solid white;
 }
 nav ul li a:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 header {
-  background-image: url(summonersrift.jpg);
-  height: 100vh;
   background-size: cover;
   background-position: center;
+  grid-column: span 3;
+  grid-row: 1/2;
+}
+
+#erbjudanden {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+article {
+  border: solid black;
+  padding: 20px;
+  margin: 20px;
+  background-color: #174645;
+  color: white;
 }
