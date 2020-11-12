@@ -51,11 +51,3 @@ article {
   background-color: #174645;
   color: white;
 }
-.Container select {
-  background: #174625;
-  color: white;
-  padding: 10px;
-  width: 250px;
-  height: 50px;
-  border: none;
-}
